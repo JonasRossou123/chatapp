@@ -1,0 +1,171 @@
+.chatroom {
+  background: green;
+}
+
+.customizerow1 {
+  height: 10vh;
+}
+.customizerow1 p {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.customizerow2 {
+  height: 5vh;
+}
+
+.customizerow3 {
+  height: 70vh;
+}
+
+.customizerow4 {
+  height: 5vh;
+}
+
+.customizerow5 {
+  height: 10vh;
+}
+
+.btnnee {
+  background: #8E4130;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 20px;
+  width: 120px;
+  border: groove lightgrey;
+  box-shadow: 0px 1px;
+}
+
+.btnja {
+  background: #58A128;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 20px;
+  width: 120px;
+  border: groove lightgrey;
+  box-shadow: 0px 1px;
+}
+
+.chat {
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  height: 100%;
+}
+
+#targetMessage {
+  background: white;
+  border: 1px solid black;
+  height: 99%;
+  width: 99%;
+  overflow: auto;
+}
+
+.rightmiddle {
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  height: 100%;
+}
+.rightmiddle .equalizer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 99%;
+  width: 95%;
+}
+.rightmiddle #chatList {
+  background: white;
+  border: 1px solid black;
+  top: 5%;
+  height: 87%;
+  width: 100%;
+  overflow-y: auto;
+}
+.rightmiddle #chatList ul {
+  list-style-type: none;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+.rightmiddle label {
+  margin-bottom: 0;
+}
+.rightmiddle #Help {
+  width: 100%;
+  background: #799F79;
+  border: outset darkseagreen;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  height: 100%;
+}
+
+#targetInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 99%;
+}
+
+#message {
+  height: 85%;
+  width: 88%;
+}
+
+#sendToMe {
+  width: 11%;
+  background: #79789D;
+  border: outset lightslategray;
+}
+
+.btns {
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.btns #sendToAll {
+  width: 95%;
+  background: #937070;
+  border: outset rosybrown;
+}
+
+.customizerow5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100%;
+}
+
+.extra {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+/*# sourceMappingURL=main.css.map */
